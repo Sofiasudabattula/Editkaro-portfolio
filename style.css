@@ -1,0 +1,208 @@
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:\Users\Sofia\OneDrive\Desktop\yellow background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffd900;
+}
+
+/* Header */
+header {
+    background: rgb(13, 78, 197);
+    color: #fdfafa;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffd900;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:#ffd900;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Background Images for Dashboard Buttons */
+nav ul li a[data-filter="all"] {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/25/89/54/1000_F_125895458_7CVhlxx4FU8okPWsCqTY5OcEZZVQvots.jpg');
+}
+nav ul li a[data-filter="short"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDykpgnVq2_vEEO0hSHlKR_dXt1ikJFhbG62tfaSmgQgzJt835Js96V607GMF4cF6M5w&usqp=CAU');
+}
+
+nav ul li a[data-filter="long"] {
+    background-image: url('https://www.techsmith.com/blog/wp-content/uploads/2023/03/how-to-make-a-youtube-video.png');
+}
+nav ul li a[data-filter="gaming"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0fCr6ndddc64wklvDf0ic6GTb0MDTezS5w&s');
+}
+
+nav ul li a[data-filter="football"] {
+    background-image: url('https://mediashower.com/img/1985C7A8-8C23-11E5-98E0-AC2612C12E14/bigstock-Soccer-player-in-action-83960174.jpg');
+}
+
+nav ul li a[data-filter="ecommerce"] {
+    background-image: url('https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww');
+}
+
+nav ul li a[data-filter="documentary"] {
+    background-image: url('https://media.licdn.com/dms/image/D4E12AQGktYcoR0L00g/article-cover_image-shrink_720_1280/0/1681218814048?e=2147483647&v=beta&t=-Mru9qW4fs2dRCuUAPSwH52wcI9T09mR3-kwa1P_FgM');
+}
+
+nav ul li a[data-filter="colorgrading"] {
+    background-image: url('https://www.proalley.com/blog/content/images/size/w2000/2023/09/Color-Grading-vs-Color-Correction-Which-One-Do-You-Need-for-Your-Video.jpg');
+}
+
+nav ul li a[data-filter="anime"] {
+    background-image: url('https://thenerddaily.com/wp-content/uploads/2018/08/Reasons-To-Watch-Anime.jpg?x74159');
+}
+
+nav ul li a[data-filter="ads"] {
+    background-image: url('https://t3.ftcdn.net/jpg/03/30/95/96/360_F_330959633_clZRpSX1fIZ3FzmpyJu6r3CBlAhSqUeI.jpg');
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+    background-color:  #ffd900;
+    color: rgb(13, 78, 197);
+    box-shadow: 0 6px 12px #ffd900;
+}
+.intro-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.intro-section h2 {
+    font-size: 2.5em;
+    color: #FFD700; /* Mustard yellow */
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    color: #fff;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Video container */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Video Card Styling */
+.video-card {
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Larger Videos with Rounded Corners */
+video {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    color:#ffd900;
+}
+.achievements-section {
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.achievement-card {
+    background: rgba(255, 215, 0, 0.2); /* Mustard yellow */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    background: rgba(36, 53, 244, 0.5); /* Darken on hover */
+}
+
+.achievement-card h2 {
+    font-size: 3em;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.achievement-card p {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+}
+
+.achievement-icon {
+    font-size: 4em;
+    color: #fff700; /* Mustard yellow for icons */
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background:rgb(13, 78, 197);
+    color:#ffd900 ;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
+
